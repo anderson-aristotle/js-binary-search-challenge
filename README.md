@@ -2,11 +2,14 @@
 
 # JS Binary Search Challenge
 
-For this challenge, you will be writing a function that performs a [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm#Procedure).
+For this challenge, you will be writing a function that performs a Binary
+Search. Please follow [this link](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms#predicting-complexity) from the `Prerequisites` and read the section describing the algorithm before beginning.
+
 
 ## Prerequisites
 
-- [ga-wdi-boston/cs-algorithms](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms#predicting-complexity)
+- [ga-wdi-boston/cs](https://git.generalassemb.ly/ga-wdi-boston/cs)
+- [ga-wdi-boston/cs-algorithms](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms)
 
 ## Instructions
 
@@ -25,12 +28,17 @@ cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 ## Requirements
 
+Implement a function `binarySearch` that is given a sorted array, a callback,
+and a value to locate within the array. Your function should return the value
+with the correct amount of invocations of the callback function.
+
 You should be running `grunt nag` before diagnosing any bugs, since it finds
 some of the most common sources of errors. After `grunt nag` passes, you should
-run `grunt test` to run the included tests. Tests will tell you whether of not
+run `grunt test` to run the included tests. Tests will tell you whether or not
 you've met these requirements.
 
-## Bonus
+The tests will ensure that you are completing a Binary Search with the
+appropriate runtime complexity.
 
 ## [License](LICENSE)
 
