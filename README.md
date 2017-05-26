@@ -2,7 +2,11 @@
 
 # JS Binary Search Challenge
 
+For this challenge, you will be writing a function that performs a [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm#Procedure).
+
 ## Prerequisites
+
+- [ga-wdi-boston/cs-algorithms](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms#predicting-complexity)
 
 ## Instructions
 
@@ -15,9 +19,9 @@
 Starter code is available in [`lib/challenge.js`](lib/challenge.js). A pull
 request is not required, but it is necessary if you want a code review.
 
-You may wish to refer to [FAQs](../ga-wdi-boston/meta/wiki/)
+You may wish to refer to [FAQs](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/)
 related to [forking and
-cloning](/ga-wdi-boston/meta/wiki/ForkAndClone).
+cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 ## Requirements
 
