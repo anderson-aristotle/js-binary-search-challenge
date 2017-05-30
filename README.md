@@ -30,7 +30,8 @@ cloning](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 Implement a function `binarySearch` that is given a sorted array, a callback,
 and a value to locate within the array. Your function should return the value
-with the correct amount of invocations of the callback function.
+from the array. It should achieve this by invoking the callback the correct
+amount of times based on the [definition of Binary Search.](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms#predicting-complexity)
 
 You should be running `grunt nag` before diagnosing any bugs, since it finds
 some of the most common sources of errors. After `grunt nag` passes, you should
