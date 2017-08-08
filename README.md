@@ -41,6 +41,10 @@ you've met these requirements.
 The tests will ensure that you are completing a Binary Search with the
 appropriate runtime complexity.
 
+## Additional Resources
+
+- [Harvard CS50 - Binary Search Video](https://www.youtube.com/watch?v=5xlIPT1FRcA)
+
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
