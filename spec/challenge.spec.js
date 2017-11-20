@@ -21,7 +21,7 @@ describe('Binary Search for 8 in even numbers 2 through 20', function () {
     expect(challenge.binarySearch(evens, lessThan, value)).to.equal(8)
   })
   it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.be.within(Math.ceil(Math.log2(evens.length)) - 1, Math.ceil(Math.log2(evens.length)))
+    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(evens.length)))
   })
 })
 
@@ -37,7 +37,7 @@ describe('Binary Search for 18 in even numbers 2 through 20', function () {
     expect(challenge.binarySearch(evens, lessThan, value)).to.equal(18)
   })
   it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.be.within(Math.ceil(Math.log2(evens.length)) - 1, Math.ceil(Math.log2(evens.length)))
+    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(evens.length)))
   })
 })
 
@@ -53,7 +53,7 @@ describe('Binary Search for 7 in odd numbers 1 through 19', function () {
     expect(challenge.binarySearch(odds, lessThan, value)).to.equal(7)
   })
   it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.be.within(Math.ceil(Math.log2(odds.length)) - 1, Math.ceil(Math.log2(odds.length)))
+    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(odds.length)))
   })
 })
 
@@ -69,13 +69,13 @@ describe('Binary Search for 17 in odd numbers 1 through 19', function () {
     expect(challenge.binarySearch(odds, lessThan, value)).to.equal(17)
   })
   it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.be.within(Math.ceil(Math.log2(odds.length)) - 1, Math.ceil(Math.log2(odds.length)))
+    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(odds.length)))
   })
 })
 
-describe('Binary Search for 29 in numbers 1 through 30', function () {
+describe('Binary Search for 29 in numbers 1 through 31', function () {
   let lessThanCallCounter = 0
-  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
   const lessThan = (element, value) => {
     lessThanCallCounter++
     return element < value
@@ -85,7 +85,7 @@ describe('Binary Search for 29 in numbers 1 through 30', function () {
     expect(challenge.binarySearch(numbers, lessThan, value)).to.equal(29)
   })
   it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.be.within(Math.ceil(Math.log2(numbers.length)) - 1, Math.ceil(Math.log2(numbers.length)))
+    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(numbers.length)))
   })
 })
 
@@ -101,6 +101,6 @@ describe('Binary Search for 4 in numbers 1 through 30', function () {
     expect(challenge.binarySearch(numbers, lessThan, value)).to.equal(4)
   })
   it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.be.within(Math.ceil(Math.log2(numbers.length)) - 1, Math.ceil(Math.log2(numbers.length)))
+    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(numbers.length)))
   })
 })
