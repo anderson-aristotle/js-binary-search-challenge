@@ -7,7 +7,7 @@ Search. Please follow [this link](https://git.generalassemb.ly/ga-wdi-boston/cs-
 
 ## Prerequisites
 
-- [ga-wdi-boston/cs](https://git.generalassemb.ly/ga-wdi-boston/cs)
+- [ga-wdi-boston/cs-data-structures](https://git.generalassemb.ly/ga-wdi-boston/cs-data-structures)
 - [ga-wdi-boston/cs-algorithms](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms)
 
 ## Instructions
