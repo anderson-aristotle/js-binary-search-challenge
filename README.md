@@ -5,19 +5,18 @@
 For this challenge, you will be writing a function that performs a Binary
 Search. Please follow [this link](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms#predicting-complexity) from the `Prerequisites` and read the section describing the algorithm before beginning.
 
-
 ## Prerequisites
 
-- [ga-wdi-boston/cs](https://git.generalassemb.ly/ga-wdi-boston/cs)
+- [ga-wdi-boston/cs-data-structures](https://git.generalassemb.ly/ga-wdi-boston/cs-data-structures)
 - [ga-wdi-boston/cs-algorithms](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms)
 
 ## Instructions
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Create and checkout a new branch to work on.
-1.  Fulfill the listed requirements.
+1. Fork and clone this repository.
+1. Change into the new directory.
+1. Install dependencies.
+1. Create and checkout a new branch to work on.
+1. Fulfill the listed requirements.
 
 Starter code is available in [`lib/challenge.js`](lib/challenge.js). A pull
 request is not required, but it is necessary if you want a code review.
@@ -47,6 +46,6 @@ appropriate runtime complexity.
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
