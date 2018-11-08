@@ -3,7 +3,9 @@
 # JS Binary Search Challenge
 
 For this challenge, you will be writing a function that performs a Binary
-Search. Please follow [this link](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms#predicting-complexity) from the `Prerequisites` and read the section describing the algorithm before beginning.
+Search. Please follow [this link](https://git.generalassemb.ly/ga-wdi-boston/cs-algorithms#predicting-complexity)
+from the `Prerequisites` and read the section describing the algorithm before
+beginning.
 
 ## Prerequisites
 
