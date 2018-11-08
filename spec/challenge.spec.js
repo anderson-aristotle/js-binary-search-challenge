@@ -9,6 +9,10 @@ const expect = chai.expect
 
 const challenge = require('../lib/challenge')
 
+const logOf = (numbers) => {
+  return Math.ceil(Math.log2(numbers.length))
+}
+
 describe('Binary Search for 8 in even numbers 2 through 20', function () {
   let lessThanCallCounter = 0
   const evens = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
@@ -20,8 +24,9 @@ describe('Binary Search for 8 in even numbers 2 through 20', function () {
   it('returns the correct value', function () {
     expect(challenge.binarySearch(evens, lessThan, value)).to.equal(8)
   })
-  it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(evens.length)))
+  it('has a Big O complexity of O(log n)', function () {
+    console.log('lessThanCallCounter', lessThanCallCounter)
+    expect(lessThanCallCounter).to.be.at.most(logOf(evens)).and.not.equal(0)
   })
 })
 
@@ -36,8 +41,9 @@ describe('Binary Search for 18 in even numbers 2 through 20', function () {
   it('returns the correct value', function () {
     expect(challenge.binarySearch(evens, lessThan, value)).to.equal(18)
   })
-  it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(evens.length)))
+  it('has a Big O complexity of O(log n)', function () {
+    console.log('lessThanCallCounter', lessThanCallCounter)
+    expect(lessThanCallCounter).to.be.at.most(logOf(evens)).and.not.equal(0)
   })
 })
 
@@ -52,8 +58,9 @@ describe('Binary Search for 7 in odd numbers 1 through 19', function () {
   it('returns the correct value', function () {
     expect(challenge.binarySearch(odds, lessThan, value)).to.equal(7)
   })
-  it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(odds.length)))
+  it('has a Big O complexity of O(log n)', function () {
+    console.log('lessThanCallCounter', lessThanCallCounter)
+    expect(lessThanCallCounter).to.be.at.most(logOf(odds)).and.not.equal(0)
   })
 })
 
@@ -68,8 +75,9 @@ describe('Binary Search for 17 in odd numbers 1 through 19', function () {
   it('returns the correct value', function () {
     expect(challenge.binarySearch(odds, lessThan, value)).to.equal(17)
   })
-  it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(odds.length)))
+  it('has a Big O complexity of O(log n)', function () {
+    console.log('lessThanCallCounter', lessThanCallCounter)
+    expect(lessThanCallCounter).to.be.at.most(logOf(odds)).and.not.equal(0)
   })
 })
 
@@ -84,8 +92,9 @@ describe('Binary Search for 29 in numbers 1 through 31', function () {
   it('returns the correct value', function () {
     expect(challenge.binarySearch(numbers, lessThan, value)).to.equal(29)
   })
-  it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(numbers.length)))
+  it('has a Big O complexity of O(log n)', function () {
+    console.log('lessThanCallCounter', lessThanCallCounter)
+    expect(lessThanCallCounter).to.be.at.most(logOf(numbers)).and.not.equal(0)
   })
 })
 
@@ -100,7 +109,8 @@ describe('Binary Search for 4 in numbers 1 through 30', function () {
   it('returns the correct value', function () {
     expect(challenge.binarySearch(numbers, lessThan, value)).to.equal(4)
   })
-  it('calls lessThan the correct number of times', function () {
-    expect(lessThanCallCounter).to.equal(Math.ceil(Math.log2(numbers.length)))
+  it('has a Big O complexity of O(log n)', function () {
+    console.log('lessThanCallCounter', lessThanCallCounter)
+    expect(lessThanCallCounter).to.be.at.most(logOf(numbers)).and.not.equal(0)
   })
 })
